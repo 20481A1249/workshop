@@ -1,0 +1,253 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+nav{
+    text-align: center;
+    width: 40%;
+    padding-top: 2% ;
+    position: fixed;
+    margin-left: 30%;
+    z-index: 1;
+}
+.nav1{
+    margin-bottom: 1%;
+}
+.nav2 a{
+    text-decoration: none;
+    padding: 0% 1%;
+    color: black;
+}
+.sec1{
+    background-image: url(img1.avif);
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.sec11,.sec31{
+    position: absolute;
+    background-color: rgb(255, 253, 253, 0.8);
+    display: flex;
+    padding: 2%;
+    margin: 7% 9%;
+    border-radius: 2%;
+}
+.sec21{
+    position: absolute;
+    background-color: rgb(255, 253, 253, 0.8);
+    display: flex;
+    padding: 2% 0% 2% 2%;
+    margin: 0% 9%;
+    border-radius: 2%;
+}
+.sec11 img,.sec31 img{
+    width: 45%;
+    height: 60vh;
+    margin-right: 2%;
+}
+.sec21 img{
+    width: 45%;
+    height: 60vh;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.sec111, .sec211,.sec311{
+    margin-top: 15%;
+}
+
+.sec2{
+        background-image: url(img2.avif);
+        background-attachment:fixed;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 110vh;
+        position: relative;
+}
+.sec21, .sec31{
+    margin-top: 7%;
+}
+
+.sec3{
+    background-image: url(img4.avif);
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+@media only screen and (max-width: 500px) {
+    nav{
+        text-align: center;
+        width: 70%;
+        padding-top: 2%;
+        position: fixed;
+        margin-left: 16%;
+        font-size: 70%;
+        z-index: 1;
+    }
+    .nav1{
+        margin-bottom: 1%;
+    }
+    .nav2 a{
+        text-decoration: none;
+        padding: 0% 1%;
+        color: black;
+    }
+    .sec1{
+        background-image: url(img1.avif);
+        background-attachment:fixed;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .sec11,.sec31{
+        position: absolute;
+        background-color: rgb(255, 253, 253, 0.8);
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        margin: 45% 9%;
+        border-radius: 2%;
+    }
+    .sec21{
+        position: absolute;
+        background-color: rgb(255, 253, 253, 0.8);
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 2% 0% 2% 2%;
+        margin: 0% 9%;
+        border-radius: 2%;
+    }
+    .sec11 img,.sec31 img{
+        width: 100%;
+        height: 30vh;
+        margin-right: 2%;
+    }
+    .sec21 img{
+        width: 94%;
+        height: 30vh;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .sec111, .sec211,.sec311{
+        margin-top: 15%;
+    }
+    
+    .sec2{
+        background-image: url(img2.avif);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding-top: 30%;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .sec21, .sec31{
+        margin-top: 7%;
+    }
+    
+    .sec3{
+        background-image: url(img4.avif);
+        background-attachment:fixed;
+        padding-top: 30%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1024px) {
+    nav{
+        text-align: center;
+        width: 70%;
+        padding-top: 2%;
+        position: fixed;
+        margin-left: 16%;
+        font-size: 110%;
+        z-index: 1;
+    }
+    .nav1{
+        margin-bottom: 1%;
+    }
+    .nav2 a{
+        text-decoration: none;
+        padding: 0% 1%;
+        color: black;
+    }
+    .sec1{
+        background-image: url(img1.avif);
+        background-attachment:fixed;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .sec11,.sec31{
+        position: absolute;
+        background-color: rgb(255, 253, 253, 0.8);
+        display: flex;
+        padding: 2%;
+        margin: 20% 15%;
+        border-radius: 2%;
+    }
+    .sec21{
+        position: absolute;
+        background-color: rgb(255, 253, 253, 0.8);
+        display: flex;
+        padding: 2% 0% 2% 2%;
+        margin: 0% 15%;
+        border-radius: 2%;
+    }
+    .sec11 img,.sec31 img{
+        width: 55%;
+        height: 35vh;
+        margin-right: 2%;
+    }
+    .sec21 img{
+        width: 55%;
+        height: 35vh;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .sec111, .sec211,.sec311{
+        margin-top: 5%;
+    }
+    
+    .sec2{
+        background-image: url(img2.avif);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding-top: 15%;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .sec21, .sec31{
+        margin-top: 7%;
+    }
+    
+    .sec3{
+        background-image: url(img4.avif);
+        background-attachment:fixed;
+        padding-top: 15%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+}
